@@ -156,7 +156,7 @@ nav a:hover {
     padding: 15px 30px;
     text-decoration: none;
     background-color:#588157;
-    color: black;
+    color: white;
     font-size: 18px;
     border-radius: 5px;
 }
@@ -169,7 +169,8 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover {
-    background-color:#A3B18A; color: white
+    background-color:#A3B18A;
+    color: black;
 }
 .join:hover {
     background-color:#A3B18A;
@@ -481,4 +482,17 @@ form {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
-  
+
+  #feedback {
+    background-color: #DAD7CD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
