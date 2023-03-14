@@ -1,0 +1,78 @@
+/* IMPORTS (Titles: Prompt, Paragraph: Noto Sans)*/ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Prompt:wght@600&display=swap');
+
+/* HEADER CSS */
+#content {
+    max-width:1600px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    background-color:#3a0ca3;
+    display: flex;
+}
+.logo {
+    width: 75px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3a0ca3;
+    border-radius: 0px 0px 15px 15px;
+}
+nav a {
+    text-decoration: none;
+    background-color:#3a0ca3;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+    font-family: "Noto Sans";
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+nav a:hover {
+    background-color:#4cc9f0;
+    color: black;
+}
+
+/* FOOTER CSS */
+footer {
+    margin-top: 100px;
+    padding: 25px 50px;
+    background-color:#3a0ca3;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    font-family: "Noto Sans";
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+footer a:hover{
+    color: black;
+    background-color:#4cc9f0;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a:hover {
+    text-decoration: none;
+}
+footer .social img {
+    border-radius: 15px 15px 15px 15px;
+}     
