@@ -1,5 +1,5 @@
 /* IMPORTS (Titles: Prompt, Paragraph: Noto Sans)*/ 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Prompt:wght@600&family=Staatliches&display=swap');
 
 /* HEADER CSS */
 #content {
@@ -58,31 +58,102 @@ nav a:hover {
 /* HERO HOME PAGE */
 #hero {
     display: grid;
-    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px ;
+    grid-template-columns: 50px 1fr 60px ;
 }
 #hero-img {
     width:100%;
+    border: 7px solid #4361EE;
 }
 #hero_box {
-    grid-column: 2/6;
+    grid-column: 2/2;
     grid-row: 1/3;
-    border: 7px solid #4361EE;
+    margin-bottom: -25px;
 }
 #hero-msg {
     text-align: center;
     color: black;
-    grid-column: 3/5;
+    grid-column: 2/2;
     grid-row: 1/2;
-    margin-top: 15px;
-    font-family: "Prompt";
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: "Staatliches";
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 4px 4px lightgray;
+    text-shadow: 4px 4px white;
+}
+.button-box {
+    margin-top: 150px;
+}
+.getstarted {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: "Noto Sans";
+    background-color:#EB475A;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+.getstarted:hover {
+    background-color: #960018;
+}
+
+/* HOME PAGE CONTENT */
+.home-content-grid {
+    margin-top: 175px;
+    display: grid;
+    grid-template-columns: 100px 1fr 50px 1fr 100px;
+    grid-template-rows: 1fr;
+}
+.home-boardgame {
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    border: 7px solid #4361EE;
+    border-radius: 15px 15px 15px 15px;
+}
+#background {
+    background-color: darkgray;
+    margin-top: -75px;
+    margin-bottom: -75px;
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/3;
+}
+section.msg {
+    background-color: #4cc9f0;
+    font-family: "Noto Sans";
+    grid-column: 4/5;
+    grid-row: 1/1;
+    padding: 35px;
+    border: 7px solid #4361EE;
+    border-radius: 15px 15px 15px 15px;
+}
+.middle-home-title {
+    font-family: 'Prompt';
+}
+.middle-home-paragraph {
+    font-size: 20px; 
+    margin-bottom: 45px;
+}
+.join {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: "Noto Sans";
+    background-color:#EB475A;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.join:hover {
+    background-color: #960018;
 }
 
 /* FOOTER CSS */
 footer {
-    margin-top: 100px;
+    margin-top: 175px;
     padding: 25px 50px;
     background-color:#3a0ca3;
     color: white;
