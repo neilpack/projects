@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- BASIC INFO -->
+<!-- https://neilpack.github.io/projects/gamenight/gamelist.html -->
 <head>
     <link rel="stylesheet" href="styles/style.css"> <!--  This Links to the CSS file  -->
     <meta charset="UTF-8">
@@ -17,18 +18,26 @@
                 <img src="images/gamenight.png" alt="Game Night Logo" class="logo">
             </a>
             <nav>
-                <a href="setnight.html">Set Game Night</a>
-                <a href="index.html">Home</a>
-                <a href="gamelist.html">Games List</a>
+                <a class="navheader1" href="setnight.html">Set Game Night</a>
+                <a class="navheader2" href="index.html">Home</a>
+                <a class="navheader3" href="gamelist.html">Games List</a>
             </nav>
         </header>
 
         <!-- TITLE -->
         <main>
-            <h1>Games List</h1>
+            <h1 class="game-list-title">Games List</h1>
+
+            <!-- SEARCH BAR -->
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="siteplan.html">Site Plan</a>
+                <input type="text" placeholder="Search..">
+            </div>
 
             <!-- LIST -->
-            <div>
+            <div class="game-list-grid">
                 <section>
                     <img src="images/catan.jpg" alt="the board game settlers of catan">
                     <h2>Settlers of Catan</h2>
@@ -49,13 +58,13 @@
             <p><a href="contactus.html">Contact Us</a></p>
             <p><a href="site-plan.html">Site Plan</a></p>
             <div class="social">
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://facebook.com" target="_blank" class="socialimg">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com" target="_blank" class="socialimg">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://instagram.com" target="_blank" class="socialimg">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
