@@ -124,14 +124,35 @@ nav a:hover {
     margin-right: 350px;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
-    text-shadow: 6px 3px black;
+    text-shadow: 4px 3px black;
 }
 
 div.game-list-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 100px 1fr 50px 1fr 100px;
 }
 
+section.glist1 {
+    grid-row: 1/1;
+}
+
+section.glist1 img{
+    width: 100%;
+    grid-column: 2/2
+}
+
+section.glist1 h2 {
+    grid-column: 4/4;
+}
+
+section.glist1 p {
+    grid-column: 4/4;
+}
+
+section.glist2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
 
 
 
