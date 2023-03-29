@@ -330,23 +330,71 @@ section.msg {
     display: grid;
     grid-template-columns: 150px 1fr 1fr 1fr 150px;
 }
-.monthplan {
-
+.select-plan-title {
+    color: #EB475A;
+    font-family: "Staatliches";
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 15px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    text-shadow: 3px 3px black;
 }
-.yearplan {
-    
+#monthplan {
+    grid-column: 2/3;
 }
-
-
-
-
-
-
-
-
+#yearplan {
+    grid-column: 4/5;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4361EE;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    font-family: "Prompt";
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 45px;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 15px;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    font-family: "Noto Sans";
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3A0CA3; transform: scale(1.1); transition: ease-in .2s;}
 
 /* CONTACT US */
-
 #contactus-title {
     color: #4361EE;
     font-family: "Staatliches";
